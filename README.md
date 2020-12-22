@@ -3,16 +3,16 @@ Steps in linux for change default range ip in docker and docker-compose
 
 1. Stop docker service
 
-`service docker stop`
-`systemctl stop docker`
+* `service docker stop`
+* `systemctl stop docker`
 
 
 2. Locate or Create a file called  **daemon.json** in **/etc/docker/** directory. 
 
-`nano /etc/docker/daemon.json`
-`vi /etc/docker/daemon.json`
-`vim /etc/docker/daemon.json`
-`touch /etc/docker/daemon.json`
+* `nano /etc/docker/daemon.json`
+* `vi /etc/docker/daemon.json`
+* `vim /etc/docker/daemon.json`
+* `touch /etc/docker/daemon.json`
 
 3. Put this json in the file **daemon.json**
 
@@ -29,9 +29,10 @@ Steps in linux for change default range ip in docker and docker-compose
 }
 ```
 Debug key is optional.
+
 Bip key is ip for docker and default-address-pools for docker-compose.
 
 4. Start docker service 
 
-`service docker start`
-`systemctl start docker`
+* `service docker start`
+* `systemctl start docker`
