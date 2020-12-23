@@ -19,10 +19,10 @@ Steps in linux for change default range ip in docker and docker-compose.
 ```json
 {
   "debug" : true,
-  "bip": "32.11.4.1/24",
+  "bip": "32.11.4.1/16",
   "default-address-pools" : [
     {
-      "base" : "32.23.6.1/24",
+      "base" : "32.23.6.1/16",
       "size" : 24
     }
   ]
