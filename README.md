@@ -1,5 +1,5 @@
 # Change-Docker-Default-Range-Ip
-Steps in linux for change default range ip in docker and docker-compose
+Steps in linux for change default range ip in docker and docker-compose.
 
 1. **Stop docker service**
 
